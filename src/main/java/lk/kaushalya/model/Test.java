@@ -5,6 +5,7 @@ interface Prototype {
 }
 
 class Zombie implements Prototype{
+
     private String type;
     private int attackPower;
     private int health;
