@@ -96,7 +96,9 @@ class Car implements Prototype{
 
 public class Practical {
     public static void main(String[] args) {
-        Car car1 = new Car("Blue", "BMW", "i4", "eDrive40", "Hatchback", "Electric", 81000.00, 2026);
+        Car car1 = new Car("Blue", "BMW", "i4", "eDrive40",
+                "Hatchback", "Electric", 81000.00, 2026);
+
         Car car2 = car1.clone();
         car2.setColor("Matte Black");
         car2.setBrand("Tesla");
