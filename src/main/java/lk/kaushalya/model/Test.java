@@ -37,7 +37,7 @@ class Zombie implements Prototype{
         this.health = health;
     }
 
-    // මෙක තමයි වැදගත්ම point එක
+    // This is the key point of the prototype pattern.
     @Override
     public Zombie clone() {
         return new Zombie(this.type, this.attackPower, this.health);
